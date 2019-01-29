@@ -16,13 +16,13 @@ p , a {
 a{
     text-decoration: none;
     display: block;
-    color: $color-black;
+    color: $white-font;
     &:hover{
         text-decoration: none;
-        color: $color-black;
+        color: $white-font;
     }
     &:active{
-        color: $color-primary-light;
+        color: $white-font;
     }
 }
 label{

@@ -836,12 +836,12 @@ p, a {
 a {
   text-decoration: none;
   display: block;
-  color: black; }
+  color: #ffffff; }
   a:hover {
     text-decoration: none;
-    color: black; }
+    color: #ffffff; }
   a:active {
-    color: #f3a33b; }
+    color: #ffffff; }
 
 label {
   font-weight: 700;
