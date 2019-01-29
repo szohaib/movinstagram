@@ -8,3 +8,6 @@ Example : 127.0.0.1:5500/#!/home
 
 For running sass, go into your project folder from the command prompt and run the following command :
 npm run sass
+
+You may also need to instal bower components. Just deleted bower components folder and run the following command :
+bower install
