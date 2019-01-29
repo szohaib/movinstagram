@@ -1,0 +1,29 @@
+#singleMovie{
+    padding-top: 50px;
+    background: $dark-background !important;
+    color: $white-font;
+}
+
+@media(min-width:767px){
+    #singleMovie{
+        height: 100vh;
+    }
+}
+
+.movie-details{
+    width: 210px;
+    margin: 10px auto;
+}
+
+.single-movie-details{
+   &:not(:first-child){
+       margin-top: 20px;
+   }
+}
+
+.movie-ratings{
+    display:inline ; 
+    position: relative;
+    top: 5px;
+    margin-left: 10px
+}

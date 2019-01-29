@@ -1,0 +1,15 @@
+.background-image{
+    background-image: linear-gradient(
+        to right bottom,
+        $color-secondary-light 0, $color-secondary-dark 100%),
+        $background-image;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+@media(min-width:769px){
+    .background-image{
+        height: 100%;
+    }
+}

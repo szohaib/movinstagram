@@ -1,0 +1,34 @@
+<div ng-include src="'app/layout/header.html'"></div>
+
+<div class="col-md-12">
+    <div class="row header-row background-image text-center white-font">
+
+        <h1>Find Your Favorite Movies And TV Shows</h1>
+        <p class="hero-para">Welcome to the official Movinstagram website. Here you will be able to browse and read
+            reviews and other facts of your Favorite Movies and TV Shows.</p>
+
+        <div class="col-md-12" id="allMovies">
+            <div class="row" ng-if="isMovieLoaded">
+
+                <div class="col-md-3 fadeIn" ng-repeat="movies in filteredData">
+                    <div class="layer-box">
+                        <img ng-src="{{movies.Poster}}" class="img-responsive movie-poster layer-bottom">
+                        <div class="layer-top">
+                            <a style="display:block" class="layer-hover-text white-font" ui-sref="singleMovie({movieId : movies.imdbID})">
+                                View Details </a>
+                        </div>
+                    </div>
+                    <a style="display:block" class="movie-details text-left white-font" ui-sref="singleMovie({movieId : movies.imdbID})">
+                        <p>{{movies.Title}}</p>
+                        <p>{{movies.Year}}</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 paginate-buttons">
+                    <button type="button" id="previous" class="btn btn-md btn-page-change btn-page-prev pull-left" ng-click="previousPage()">Previous</button>
+                    <button type="button" id="next" class="btn btn-md btn-page-change btn-page-next pull-right" ng-click="nextPage()">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>

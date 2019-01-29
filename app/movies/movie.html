@@ -1,0 +1,65 @@
+<div class="col-md-12" id="singleMovie">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+                <img ng-src="{{resultArray.Poster}}" class="img-responsive" style="display: inline">
+            </div>
+            <div class="col-md-7 col-sm-7 movie-plot" style="padding-left:0px;">
+                <div class="single-movie-details">
+                    <h4>Title:</h4>
+                    <p>{{resultArray.Title}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Plot:</h4>
+                    <p>{{resultArray.Plot}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Actors:</h4>
+                    <p>{{resultArray.Actors}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Director:</h4>
+                    <p>{{resultArray.Director}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Awards:</h4>
+                    <p>{{resultArray.Awards}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Release Date:</h4>
+                    <p>{{resultArray.Released}}</p>
+                </div>
+
+                <div class="single-movie-details">
+                    <h4>Run Time:</h4>
+                    <p>{{resultArray.Runtime}}</p>
+                </div>
+
+
+            </div>
+            <div class="col-md-2">
+                <div style="display: inline ; float: right;">
+                    <p class="movie-ratings">{{resultArray.Ratings[1].Value}}</p>
+                    <img src="../../assets/images/tomato.png" class="img-responsive" style="display: inline ; float: left;margin-left: 10px">
+
+                </div>
+                <div style="display: inline ; float: right;">
+                    <p class="movie-ratings">{{resultArray.Ratings[0].Value}}</p>
+                    <img src="../../assets/images/imdb.png" class="img-responsive" style="display: inline ; float: left;">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-md btn-page-change pull-left" ng-click="goBack()">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

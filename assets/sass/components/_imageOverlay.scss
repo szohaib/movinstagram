@@ -1,0 +1,43 @@
+.layer-box img {
+	max-width: 100%;
+}
+.layer-box .layer-bottom {
+	display: block;
+}
+.layer-box .layer-top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+    margin: 10px auto;
+	width: 210px;
+	height: 315px;
+	background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8));
+	color: $white-font;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.layer-box:hover .layer-top,
+.layer-box.active .layer-top-layer_top {
+	opacity: 1;
+}
+.layer-box .layer-hover-text{
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}

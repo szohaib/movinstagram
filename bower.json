@@ -1,0 +1,22 @@
+{
+  "name": "Movinstagram",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Zohaib"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.7.6",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-bootstrap": "^2.5.0"
+  }
+}

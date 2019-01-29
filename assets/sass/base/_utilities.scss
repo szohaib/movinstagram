@@ -1,0 +1,26 @@
+.upper{
+    text-transform: uppercase
+}
+.cursor{
+    cursor: pointer;
+}
+.form-group{
+    margin-bottom: 0px;
+}
+.navbar{
+    margin-bottom: 0px;
+    background: $dark-background;
+    border-bottom: 1px solid $navbar-border;
+    backface-visibility: hidden;
+    color: $navbar-font;
+    border-radius: 0px;
+}
+.navbar-default{
+    border: none;
+}
+.header-row{
+    padding-top: 50px;
+}
+.white-font{
+    color: $white-font;
+}
