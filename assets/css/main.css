@@ -885,7 +885,7 @@ label {
   color: #ffffff; }
 
 .background-image {
-  background-image: linear-gradient(to right bottom, rgba(29, 29, 29, 0.65) 0, #1d1d1d 100%), url("../../../assets/images/black.jpg");
+  background-image: linear-gradient(to right bottom, rgba(29, 29, 29, 0.65) 0, #1d1d1d 100%), url("../../../assets/images/background.jpg");
   background-size: cover;
   background-position: top;
   position: relative; }
