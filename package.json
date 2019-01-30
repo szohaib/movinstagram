@@ -2,14 +2,21 @@
   "name": "movinstagram",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w assets/sass/ -o assets/css/"
+    "sass": "node-sass -w public/assets/sass/ -o public/assets/css/",
+    "server" : "node server.js"
   },
   "author": "Zohaib",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.7.6",
+    "angular-ui-router": "^1.0.20",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.4.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
     "typewriter-effect": "^2.5.2"
   }
 }

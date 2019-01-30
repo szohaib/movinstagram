@@ -1,0 +1,13 @@
+.paginate-buttons{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.btn-page-change{
+    background-color: $color-primary-light;
+    color: $white-font;
+
+    &:hover{
+        color: $white-font
+    }
+}
